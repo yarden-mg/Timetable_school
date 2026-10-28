@@ -1,0 +1,162 @@
+﻿body {
+    direction: rtl;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table, tr, td {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid beige;
+    padding: 5px;
+    background-color: beige;
+    color: black;
+}
+tr {
+    background-color: darkgrey;
+    font-weight: bold;
+}
+
+table:hover td{
+    color: white;
+    background-color: white
+}
+
+td.classCriterion {
+    color: black;
+    font-weight: bold;
+    background-color: darkgrey;
+}
+table:hover td.classCriterion {
+    color: black;
+    font-weight: bold;
+    background-color: darkgrey;
+}
+td.classFree {
+    background-color:lightblue ;
+}
+table:has(.classFree:hover) .classFree {
+    background-color: lightblue;
+    font-weight: bold;
+    color: black;
+}
+
+td.classMath {
+    background-color: #AEC6CF;
+}
+table:has(.classMath:hover) .classMath {
+    background-color: #AEC6CF;
+    font-weight: bold;
+    color: black;
+}
+
+td.classPhysics {
+    background-color: #E6E6FA;
+}
+table:has(.classPhysics:hover) .classPhysics {
+    background-color: #E6E6FA;
+    font-weight: bold;
+    color: black;
+}
+
+td.classEnglish {
+        background-color: #FF6961;
+}
+table:has(.classEnglish:hover) .classEnglish {
+    background-color: #FF6961;
+    font-weight: bold;
+    color: black;
+}
+
+td.classHistory {
+        background-color: #FFB347;
+}
+table:has(.classHistory:hover) .classHistory {
+    background-color: #FFB347;
+    font-weight: bold;
+    color: black;
+}
+
+td.classComputerBasics {
+        background-color: #FFDAB9;
+}
+table:has(.classComputerBasics:hover) .classComputerBasics {
+    background-color: #FFDAB9;
+    font-weight: bold;
+    color: black;
+}
+
+td.classSports {
+        background-color: #FFA500;
+}
+table:has(.classSports:hover) .classSports {
+    background-color: #FFA500;
+    font-weight: bold;
+    color: black;
+}
+
+
+td.classCarTheory {
+        background-color: #d0d6d6;
+}
+table:has(.classCarTheory:hover) .classCarTheory {
+    background-color: #d0d6d6;
+    font-weight: bold;
+    color: black;
+}
+
+td.classLifeSkills {
+        background-color: #FFFACD;
+}
+table:has(.classLifeSkills:hover) .classLifeSkills {
+    background-color: #FFFACD;
+    font-weight: bold;
+    color: black;
+}
+
+
+td.classBiology {
+        background-color: #B2EBB2;
+}
+table:has(.classBiology:hover) .classBiology {
+    background-color: #B2EBB2;
+    font-weight: bold;
+    color: black;
+}
+
+td.classBible {
+        background-color: #E7D27C;
+}
+table:has(.classBible:hover) .classBible {
+    background-color: #E7D27C;
+    font-weight: bold;
+    color: black;
+}
+
+td.classHebrew {
+        background-color: #b88656;
+}
+table:has(.classHebrew:hover) .classHebrew {
+    background-color: #b88656;
+    font-weight: bold;
+    color: black;
+}
+
+td.classEducation {
+        background-color: #836953;
+}
+table:has(.classEducation:hover) .classEducation {
+    background-color: #836953;
+    font-weight: bold;
+    color: black;
+}
+
+td.classProjectTaba {
+        background-color: salmon;
+}
+table:has(.classProjectTaba:hover) .classProjectTaba {
+    background-color: salmon;
+    font-weight: bold;
+    color: black;
+}
